@@ -1,12 +1,5 @@
-# wrangler.toml
 name = "spotify-youtube-player"
 main = "src/index.js"
 compatibility_date = "2026-02-25"
-compatibility_flags = [ "nodejs_compat" ]
-
-# 建議加上（可避免一些舊行為）
+compatibility_flags = ["nodejs_compat"]
 workers_dev = true
-
-# 如果之後要綁自訂域名，可以在這裡設定
-# [vars]
-# MY_DOMAIN = "player.example.com"
