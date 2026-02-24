@@ -1,5 +1,5 @@
 name = "spotify-youtube-player"
 main = "src/index.js"
-compatibility_date = "2026-02-25"
+compatibility_date = "2026-02-24"
 compatibility_flags = ["nodejs_compat"]
 workers_dev = true
